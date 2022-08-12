@@ -1,2 +1,2 @@
-OUTPUT
-<img src="INTRO\Screenshot (209).png">
+<h1>OUTPUT</h1>
+<img src="Screenshot(209).png">
