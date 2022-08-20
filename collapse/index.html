@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="checkbox" type="checkbox">
+    <label for="checkbox">sadhna</label>
+
+    <script>
+        
+        // function clicked(){
+        //     let checkbox = document.getElementById("checkbox")
+        // console.log(checkbox)
+
+        // }
+
+        // function clicked(e){
+        //     let checkbox = document.getElementById("checkbox")
+        // console.log(e)
+ 
+        // }
+
+        function clicked(e){
+            let checkbox = document.getElementById("checkbox")
+        console.log(e.target.checked)
+ 
+        }
+
+
+
+        checkbox.addEventListener('click', clicked)
+    </script>
+</body>
+</html>
